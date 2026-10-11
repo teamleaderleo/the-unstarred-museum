@@ -81,11 +81,11 @@ python3 -m http.server 8000
 
 Then open **http://localhost:8000**. Everything is plain HTML, CSS, JavaScript, and JSON. No npm install, bundler, or database required.
 
-To publish on **GitHub Pages**, create a public GitHub repository, upload the contents of this folder to its default branch, then go to **Settings → Pages → Deploy from a branch → main → / (root)**. GitHub supplies the published URL once Pages is active.
+To publish this repository as a website, open [Settings → Pages](https://github.com/teamleaderleo/the-unstarred-museum/settings/pages), choose **Deploy from a branch**, select **main** and **/ (root)**, then **Save**. GitHub displays the published URL once deployment finishes.
 
 ## How to submit something glorious
 
-The museum welcomes public GitHub projects with **0–5 stars at discovery**. Send the repo link, an actual source-file link, and a short affectionate explanation of why the artifact deserves a display cabinet. Use the [specimen nomination issue template](.github/ISSUE_TEMPLATE/nominate-a-specimen.yml), or see [CONTRIBUTING.md](CONTRIBUTING.md) for the catalog format.
+The museum welcomes public GitHub projects with **0–5 stars at discovery**. Send the repo link, an actual source-file link, and a short affectionate explanation of why the artifact deserves a display cabinet. Use the [specimen nomination form](https://github.com/teamleaderleo/the-unstarred-museum/issues/new?template=nominate-a-specimen.yml), or see [CONTRIBUTING.md](CONTRIBUTING.md) for the catalog format.
 
 A quick catalog check is included:
 
