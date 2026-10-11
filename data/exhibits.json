@@ -1,0 +1,366 @@
+[
+  {
+    "id": "UM-001",
+    "repo": "AmberNQ/modthatclosesthegamewhenitopens",
+    "name": "modthatclosesthegamewhenitopens",
+    "url": "https://github.com/AmberNQ/modthatclosesthegamewhenitopens",
+    "category": "Self-Defeating Software",
+    "tagline": "A game mod that requests the game close as soon as it opens.",
+    "field_note": "The entire Lua source is one call. This feature has absolute commitment to the bit.",
+    "language": "Lua",
+    "tags": [
+      "game mods",
+      "single-purpose",
+      "one line"
+    ],
+    "icon": "⏻",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2026-07-27",
+    "evidence": {
+      "path": "main.lua",
+      "url": "https://github.com/AmberNQ/modthatclosesthegamewhenitopens/blob/main/main.lua",
+      "excerpt": "love.event.quit()"
+    },
+    "last_updated_at_discovery": "2026-07-27"
+  },
+  {
+    "id": "UM-002",
+    "repo": "jmc-ctrl/labubu-cli",
+    "name": "labubu-cli",
+    "url": "https://github.com/jmc-ctrl/labubu-cli",
+    "category": "Creature Features",
+    "tagline": "A command-line program dedicated to displaying a Labubu.",
+    "field_note": "Its C source checks pointers and print lengths; there is also a Valgrind test script. The doll gets professional treatment.",
+    "language": "C",
+    "tags": [
+      "terminal",
+      "ASCII art",
+      "Labubu"
+    ],
+    "icon": "𖠋",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2025-09-16",
+    "evidence": {
+      "path": "src/labubu.c",
+      "url": "https://github.com/jmc-ctrl/labubu-cli/blob/main/src/labubu.c",
+      "excerpt": "exit_code = safe_print_labubu(labubu_art);"
+    },
+    "last_updated_at_discovery": "2026-09-10"
+  },
+  {
+    "id": "UM-003",
+    "repo": "kshaloh/nothing",
+    "name": "nothing",
+    "url": "https://github.com/kshaloh/nothing",
+    "category": "Pure Nothing",
+    "tagline": "A repository announcing that it is empty.",
+    "field_note": "It contains a single README announcing an empty repository. At discovery it had twenty-four forks.",
+    "language": "Markdown",
+    "tags": [
+      "minimalism",
+      "README",
+      "twenty-four forks"
+    ],
+    "icon": "∅",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 24,
+    "discovered_on": "2026-10-10",
+    "created_on": "2024-09-25",
+    "evidence": {
+      "path": "README.md",
+      "url": "https://github.com/kshaloh/nothing/blob/main/README.md",
+      "excerpt": "### An empty repository"
+    },
+    "last_updated_at_discovery": "2024-09-25"
+  },
+  {
+    "id": "UM-004",
+    "repo": "dianemagnin97/screamingrobot",
+    "name": "screamingrobot",
+    "url": "https://github.com/dianemagnin97/screamingrobot",
+    "category": "Creature Features",
+    "tagline": "A robot scripted to react to obstacles by screaming.",
+    "field_note": "The Python source tracks increasing stress, drives a buzzer and contains the magnificent blocked-robot scream. Prototype code, beautiful ambition.",
+    "language": "Python",
+    "tags": [
+      "robotics",
+      "Raspberry Pi",
+      "screaming"
+    ],
+    "icon": "♨",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 2,
+    "discovered_on": "2026-10-10",
+    "created_on": "2016-12-10",
+    "evidence": {
+      "path": "game_code.py",
+      "url": "https://github.com/dianemagnin97/screamingrobot/blob/master/game_code.py",
+      "excerpt": "print \"I'm blocked! AAAAAAAAAHHHHHH!\""
+    },
+    "last_updated_at_discovery": "2018-08-28"
+  },
+  {
+    "id": "UM-005",
+    "repo": "ephman89/PoopyBird",
+    "name": "PoopyBird",
+    "url": "https://github.com/ephman89/PoopyBird",
+    "category": "Creature Features",
+    "tagline": "Its repo description says “Flappy bird but with poop.”",
+    "field_note": "The main character is still named SPACE_SHIP inside the JavaScript, complete with rotation and a bullets array.",
+    "language": "JavaScript",
+    "tags": [
+      "canvas",
+      "game",
+      "spacecraft"
+    ],
+    "icon": "✺",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 2,
+    "discovered_on": "2026-10-10",
+    "created_on": "2019-09-20",
+    "evidence": {
+      "path": "spaceship.js",
+      "url": "https://github.com/ephman89/PoopyBird/blob/master/spaceship.js",
+      "excerpt": "SPACE_SHIP = {"
+    },
+    "last_updated_at_discovery": "2019-09-23"
+  },
+  {
+    "id": "UM-006",
+    "repo": "YCloudYUSA/useless_machines",
+    "name": "useless_machines",
+    "url": "https://github.com/YCloudYUSA/useless_machines",
+    "category": "Self-Defeating Software",
+    "tagline": "Drupal modules whose job is to uninstall themselves.",
+    "field_note": "The gag has real utility: replacement modules help clean up missing Drupal modules, then uninstall themselves during updates.",
+    "language": "PHP",
+    "tags": [
+      "Drupal",
+      "maintenance",
+      "self-removing"
+    ],
+    "icon": "↩",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 3,
+    "discovered_on": "2026-10-10",
+    "created_on": "2023-07-21",
+    "evidence": {
+      "path": "action/action.post_update.php",
+      "url": "https://github.com/YCloudYUSA/useless_machines/blob/2.x/action/action.post_update.php",
+      "excerpt": "\\Drupal::service('module_installer')->uninstall(['action']);"
+    },
+    "last_updated_at_discovery": "2025-11-26"
+  },
+  {
+    "id": "UM-007",
+    "repo": "Dino12326/FlyingBanana",
+    "name": "FlyingBanana",
+    "url": "https://github.com/Dino12326/FlyingBanana",
+    "category": "Creature Features",
+    "tagline": "A Gorilla Tag mod that lets your gorilla take flight.",
+    "field_note": "The C++ hooks into the player’s rigid body and switches gravity off during flight mode. There is genuine engineering here.",
+    "language": "C++",
+    "tags": [
+      "VR",
+      "Gorilla Tag",
+      "flight"
+    ],
+    "icon": "↗",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 32,
+    "discovered_on": "2026-10-10",
+    "created_on": "2021-06-01",
+    "evidence": {
+      "path": "src/main.cpp",
+      "url": "https://github.com/Dino12326/FlyingBanana/blob/main/src/main.cpp",
+      "excerpt": "playerPhysics->set_useGravity(false);"
+    },
+    "last_updated_at_discovery": "2021-06-01"
+  },
+  {
+    "id": "UM-008",
+    "repo": "LeonWinde/stupid-ass-flexbox-shit-i-hate-frontend",
+    "name": "stupid-ass-flexbox-shit-i-hate-frontend",
+    "url": "https://github.com/LeonWinde/stupid-ass-flexbox-shit-i-hate-frontend",
+    "category": "Elaborate Side Quests",
+    "tagline": "A deeply exasperated repository name concealing a Twitch TTS experiment.",
+    "field_note": "The code includes DougDoug chat integrations, speech services, social-credit scoring and a testing script with an unforgettable warning.",
+    "language": "Python",
+    "tags": [
+      "livestream",
+      "TTS",
+      "social credit"
+    ],
+    "icon": "!!",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 7,
+    "discovered_on": "2026-10-10",
+    "created_on": "2025-05-08",
+    "evidence": {
+      "path": "file_updater.py",
+      "url": "https://github.com/LeonWinde/stupid-ass-flexbox-shit-i-hate-frontend/blob/main/file_updater.py",
+      "excerpt": "#LOUD BE CAREFUL WEEWOO DELETE THIS LATER WEEWOO WEEWOO"
+    },
+    "last_updated_at_discovery": "2025-05-08"
+  },
+  {
+    "id": "UM-009",
+    "repo": "stevenrASC6/uselessWebsite",
+    "name": "uselessWebsite",
+    "url": "https://github.com/stevenrASC6/uselessWebsite",
+    "category": "Digital Relics",
+    "tagline": "A little messaging app with science GIFs and NASA imagery.",
+    "field_note": "Bob’s Messaging App stores submitted messages in a plain JavaScript array. Refreshing the page wipes the guestbook clean.",
+    "language": "JavaScript",
+    "tags": [
+      "guestbook",
+      "NASA",
+      "Giphy"
+    ],
+    "icon": "⌁",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 2,
+    "discovered_on": "2026-10-10",
+    "created_on": "2019-08-07",
+    "evidence": {
+      "path": "main.js",
+      "url": "https://github.com/stevenrASC6/uselessWebsite/blob/master/main.js",
+      "excerpt": "const database = [];"
+    },
+    "last_updated_at_discovery": "2019-08-07"
+  },
+  {
+    "id": "UM-010",
+    "repo": "Elusiveness/ToasterChan",
+    "name": "ToasterChan",
+    "url": "https://github.com/Elusiveness/ToasterChan",
+    "category": "Digital Relics",
+    "tagline": "A chat bot for a 2016 Nightcore music community.",
+    "field_note": "The README describes DJ queue estimates, room commands and Nightcore help; the repo contains a README and a JavaScript example module.",
+    "language": "JavaScript",
+    "tags": [
+      "Nightcore",
+      "chatbots",
+      "2016 internet"
+    ],
+    "icon": "♬",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 3,
+    "discovered_on": "2026-10-10",
+    "created_on": "2016-07-08",
+    "evidence": {
+      "path": "README.md",
+      "url": "https://github.com/Elusiveness/ToasterChan/blob/master/README.md",
+      "excerpt": "!eta |  | Shows an estimated time for when you will reach the DJ booth"
+    },
+    "last_updated_at_discovery": "2016-07-08"
+  },
+  {
+    "id": "UM-011",
+    "repo": "WaterLemons2k/non-op",
+    "name": "non-op",
+    "url": "https://github.com/WaterLemons2k/non-op",
+    "category": "Pure Nothing",
+    "tagline": "An installable npm package that advertises doing nothing.",
+    "field_note": "The entire main JavaScript file contains one statement. The package documentation faithfully says “Does nothing.”",
+    "language": "JavaScript",
+    "tags": [
+      "npm",
+      "minimalism",
+      "one line"
+    ],
+    "icon": "◌",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2024-02-01",
+    "evidence": {
+      "path": "index.js",
+      "url": "https://github.com/WaterLemons2k/non-op/blob/main/index.js",
+      "excerpt": "Object.call(null);"
+    },
+    "last_updated_at_discovery": "2025-08-12"
+  },
+  {
+    "id": "UM-012",
+    "repo": "Toodlebrat/UselessButton",
+    "name": "UselessButton",
+    "url": "https://github.com/Toodlebrat/UselessButton",
+    "category": "Pure Nothing",
+    "tagline": "A web page containing an entirely inert button.",
+    "field_note": "The one HTML file gives the button a row of vertical bars for a label and absolutely no click behavior.",
+    "language": "HTML",
+    "tags": [
+      "buttons",
+      "one file",
+      "HTML"
+    ],
+    "icon": "▣",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2025-01-28",
+    "evidence": {
+      "path": "index.html",
+      "url": "https://github.com/Toodlebrat/UselessButton/blob/main/index.html",
+      "excerpt": "<button class=\"button\">\n    |||||||||||||||\n </button>"
+    },
+    "last_updated_at_discovery": "2025-01-28"
+  },
+  {
+    "id": "UM-013",
+    "repo": "gabc/useless-pile-of-junk-with-a-catchy-name",
+    "name": "useless-pile-of-junk-with-a-catchy-name",
+    "url": "https://github.com/gabc/useless-pile-of-junk-with-a-catchy-name",
+    "category": "Elaborate Side Quests",
+    "tagline": "A self-described shabby little town in the land of Lisp.",
+    "field_note": "The long-named repo is full of Common Lisp utilities. One file paints terminal color stripes from MD5 hashes.",
+    "language": "Common Lisp",
+    "tags": [
+      "Lisp",
+      "terminal colors",
+      "utility drawer"
+    ],
+    "icon": "⌘",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 8,
+    "discovered_on": "2026-10-10",
+    "created_on": "2018-06-21",
+    "evidence": {
+      "path": "color-stripe.lisp",
+      "url": "https://github.com/gabc/useless-pile-of-junk-with-a-catchy-name/blob/master/color-stripe.lisp",
+      "excerpt": "\"Make a color strip from the MD5 hash of THING.\""
+    },
+    "last_updated_at_discovery": "2018-06-21"
+  },
+  {
+    "id": "UM-014",
+    "repo": "rmnscnce/no-egg-to-draw",
+    "name": "no-egg-to-draw",
+    "url": "https://github.com/rmnscnce/no-egg-to-draw",
+    "category": "Elaborate Side Quests",
+    "tagline": "A collection of one-line identity files with a solemn eggless premise.",
+    "field_note": "The README says there were no eggs to draw. The Python script assembles contributors’ identity files into one text document.",
+    "language": "Python",
+    "tags": [
+      "community",
+      "eggs",
+      "identity files"
+    ],
+    "icon": "○",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 15,
+    "discovered_on": "2026-10-10",
+    "created_on": "2024-03-06",
+    "evidence": {
+      "path": "main.py",
+      "url": "https://github.com/rmnscnce/no-egg-to-draw/blob/main/main.py",
+      "excerpt": "with open(\"identities_finalized.txt\", \"w\") as muxed:"
+    },
+    "last_updated_at_discovery": "2024-03-10"
+  }
+]

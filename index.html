@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111410">
+  <meta name="description" content="The Unstarred Museum: an affectionate field guide to tiny, extraordinary GitHub projects. Zero stars. Infinite lore.">
+  <meta property="og:title" content="The Unstarred Museum">
+  <meta property="og:description" content="A museum of projects with zero stars and enormous personality.">
+  <meta property="og:type" content="website">
+  <title>The Unstarred Museum — Zero Stars. Infinite Lore.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#collection">Skip to the collection</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="The Unstarred Museum, home">
+        <span class="logo-seal" aria-hidden="true">✳</span>
+        <span>THE <strong>UNSTARRED</strong> MUSEUM</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#collection">THE EXHIBITS</a>
+        <a href="#field-guide">FIELD GUIDE</a>
+        <a class="nav-highlight" href="#nominate">NOMINATE A SPECIMEN <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AN ONGOING SURVEY OF THE GITHUB UNDERGROWTH <span class="index-mark">/ VOL. 001</span></p>
+          <h1 id="hero-title">ZERO STARS.<br><em>INFINITE LORE.</em></h1>
+          <p class="hero-lede">Somewhere on GitHub, somebody wrote a program to close the game you just opened. Another published a button that does absolutely nothing. We have come to collect these treasures.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#collection">ENTER THE COLLECTION <span aria-hidden="true">↗</span></a>
+            <button class="button button-ghost" type="button" id="hero-random">SURPRISE ME <span aria-hidden="true">↝</span></button>
+          </div>
+          <div class="hero-footnote"><span class="crosshair" aria-hidden="true">✣</span> AN AFFECTIONATE ARCHIVE OF DELIGHTFULLY SPECIFIC SOFTWARE <span class="small-divider">/</span> EST. 2026</div>
+        </div>
+
+        <div class="hero-art" aria-label="Featured specimen: a one-line game-closing program">
+          <div class="art-topline"><span>THE UNSTARRED MUSEUM</span><span>PROOF OF EXISTENCE № 001</span></div>
+          <div class="art-orbit" aria-hidden="true"><div class="orbit-a"></div><div class="orbit-b"></div><div class="star-giant">✳</div></div>
+          <div class="art-stamp" aria-label="Zero stars recorded"><b>00</b><small>STARS<br>ON ARRIVAL</small></div>
+          <div class="art-caption"><span>ONE-LINE MASTERPIECE</span><strong>love.event.quit()</strong><small>THE SOFTWARE HAS LEFT THE BUILDING.</small></div>
+          <div class="art-bottomline"><span>PLEASE DO NOT FEED THE ALGORITHMS</span><span>★ / 000</span></div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true"><div class="ticker-content">CURIOUS SOFTWARE ✳ WONDERFULLY POINTLESS ✳ UNREASONABLY SPECIFIC ✳ AN INTERNET WORTH KEEPING ✳ CURIOUS SOFTWARE ✳ WONDERFULLY POINTLESS ✳ UNREASONABLY SPECIFIC ✳ AN INTERNET WORTH KEEPING ✳</div></div>
+
+      <section id="collection" class="collection" aria-labelledby="collection-title">
+        <div class="section-prelude"><span>↳ DEPARTMENT 01</span><span>OPEN COLLECTION / ESTABLISHED 10 OCT 2026</span></div>
+        <div class="collection-heading">
+          <div><p class="section-kicker">THE PERMANENT COLLECTION</p><h2 id="collection-title">Small projects.<br><i>Remarkable decisions.</i></h2></div>
+          <div class="collection-stats" aria-label="Museum statistics">
+            <div><strong id="total-count">14</strong><span>SPECIMENS</span></div>
+            <div><strong>0</strong><span>★ AT INTAKE</span></div>
+          </div>
+        </div>
+
+        <div class="archive-toolbar">
+          <div class="search-wrap">
+            <label for="search-input">SEARCH THE CABINETS</label>
+            <div class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="search-input" placeholder="Try 'robot', 'nothing', 'Lisp'…" autocomplete="off"><span class="shortcut" aria-hidden="true">/</span></div>
+          </div>
+          <div class="sort-wrap"><label for="sort-order">DISPLAY ORDER</label><select id="sort-order"><option value="accession">Accession number</option><option value="oldest">Oldest first</option><option value="newest">Newest first</option><option value="forked">Most forked</option></select></div>
+        </div>
+        <div id="filters" class="filter-row" role="group" aria-label="Filter specimens by department"><button type="button" class="filter-pill is-active" aria-pressed="true">ALL DEPARTMENTS</button></div>
+        <div class="results-bar"><p id="result-summary" role="status">OPENING THE CABINETS…</p><span>FIELD NOTES ARE BASED ON REAL SOURCE FILES <span aria-hidden="true">↘</span></span></div>
+        <div id="exhibit-grid" class="exhibit-grid"><p class="loading">Cataloging specimens…</p></div>
+        <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">∅</span><h3>We've found the perfect amount of nothing.</h3><p>Try another search or reopen all cabinets.</p><button type="button" class="button button-primary" id="clear-filters">RESET FILTERS ↗</button></div>
+        <div class="collection-end"><span>END OF CURRENT COLLECTION</span><span aria-hidden="true">✳</span><span>MORE SPECIMENS WELCOME</span></div>
+      </section>
+
+      <section class="guide-section" id="field-guide" aria-labelledby="guide-title">
+        <div class="guide-label">FIELD GUIDE / THE CURATOR'S PROMISE</div>
+        <div class="guide-content"><h2 id="guide-title">The internet is full of <i>tiny monuments</i> to human curiosity.</h2><div class="guide-text"><p>Some are jokes. Some are prototypes. Some solve one extremely specific problem for one extremely specific person. Each deserves a place in the record.</p><p>We inspect actual source files, link to the people who made them, and record their star counts on discovery day. Our fascination is the project itself. The people behind it get our respect.</p><p class="guide-signoff">CURATED WITH AFFECTION, BEWILDERMENT & EXTREMELY UNNECESSARY ATTENTION TO DETAIL. <span>↗</span></p></div></div>
+      </section>
+
+      <section class="nominate-section" id="nominate" aria-labelledby="nominate-title">
+        <div><p class="section-kicker">THE MUSEUM IS STILL ACQUIRING</p><h2 id="nominate-title">FOUND SOMETHING<br><i>GLORIOUSLY ODD?</i></h2><p>Zero to five stars. A real public repo. At least one source file worth talking about. Tell us why it belongs behind glass.</p></div>
+        <div class="nominate-panel"><span class="nominate-symbol" aria-hidden="true">✳</span><p>THE APPLICATION PROCESS IS ALARMINGLY SIMPLE.</p><ol><li>Find a small, remarkable repository.</li><li>Open a source file and identify the magic.</li><li>Nominate it with a link and a field note.</li></ol><a class="button button-primary" href="CONTRIBUTING.md">READ THE SUBMISSION GUIDE <span aria-hidden="true">↗</span></a><small>All original projects belong to their creators.</small></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-brand"><span class="logo-seal" aria-hidden="true">✳</span><span>THE UNSTARRED MUSEUM</span></div><span>AN INDEPENDENT LITTLE ARCHIVE OF PUBLIC GITHUB ODDITIES.</span><a href="#top">BACK TO THE TOP ↑</a></footer>
+  </div>
+</body>
+</html>

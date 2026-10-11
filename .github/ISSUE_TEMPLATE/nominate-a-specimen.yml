@@ -1,0 +1,47 @@
+name: Nominate a specimen
+description: Submit an odd and wonderful GitHub project for the collection.
+title: '[SPECIMEN] owner/repository'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome, fellow internet archaeologist. Bring evidence, curiosity, and affection for the makers.
+        The project should have 0–5 stars when you discover it.
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository URL
+      description: Link to the original public project.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: stars
+    attributes:
+      label: Stars at discovery
+      placeholder: '0'
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Best source file
+      description: Direct link to the file you inspected.
+      placeholder: https://github.com/owner/repo/blob/main/something.py
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this belong in the museum?
+      description: One to three affectionate sentences about the project itself.
+      placeholder: A utility that...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Tiny code excerpt (optional)
+      description: Keep quoted material short and link to its original file.
+    validations:
+      required: false
