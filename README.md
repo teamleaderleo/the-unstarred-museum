@@ -37,6 +37,27 @@ Welcome to a continually growing cabinet of tiny, baffling, endearing, magnifice
 
 All fourteen repositories were checked as public and **zero-starred on 2026-10-10**. Star and fork counts are snapshots. Current totals may change. Each entry in [`data/exhibits.json`](data/exhibits.json) includes a link to the specific file inspected and a tiny excerpt.
 
+## The second excavation · 10 October 2026
+
+Twelve more discoveries, including deliberately dreadful algorithms, HTML relics, and the extraordinary six-Shrek Unity scene. This wing admits repositories with **0–5 stars at intake**; its counts are snapshots rather than live ratings.
+
+| Accession | Specimen | Curator's note |
+| :--- | :--- | :--- |
+| **UM-015** | [Noam's best work of art yet](https://github.com/NoamFalber/Noam-s-best-work-of-art-yet) | A Unity Mobile 2D project with six imported Shrek images and no gameplay scripts. |
+| **UM-016** | [Horrible-Form](https://github.com/brockwhittaker/Horrible-Form) | A web form that deletes input fields when you agree to type in them. |
+| **UM-017** | [bad-ideas](https://github.com/hwayne/bad-ideas) | Basic arithmetic through deeply unhelpful shell commands. |
+| **UM-018** | [OverengineeredHelloWorld](https://github.com/Nat-Faeeria/OverengineeredHelloWorld) | A Jenkins-and-Maven Hello World project whose World method returns Fox. |
+| **UM-019** | [Really-Horrible-Solutions](https://github.com/nfd9001/Really-Horrible-Solutions) | Sorting an integer array by letting each element sleep for its value. |
+| **UM-020** | [bad_css_ideas](https://github.com/secretGeek/bad_css_ideas) | A curated collection of delightfully hostile CSS selectors. |
+| **UM-021** | [WhatTheFuckShouldBrianEatForLunchDotCom](https://github.com/c99koder/WhatTheFuckShouldBrianEatForLunchDotCom) | A profane random lunch oracle that offers Dragon Sandwich and SQL injection as cuisine. |
+| **UM-022** | [bullshit](https://github.com/dschmedding/bullshit) | A tax-bracket script that concludes without displaying a tax. |
+| **UM-023** | [Ridiculous-Website](https://github.com/Olivetd/Ridiculous-Website) | An earnest HTML protest against restrictions on socks worn with man pants. |
+| **UM-024** | [OverengineeredFizzBuzz](https://github.com/bitcoin-roomba/OverengineeredFizzBuzz) | FizzBuzz gets a Java domain model, text interface, and graphical user interface. |
+| **UM-025** | [Fart](https://github.com/dodzon/Fart) | An HTML page titled Fart, with an empty body. |
+| **UM-026** | [BullshitGeneratorJava](https://github.com/blueflychief/BullshitGeneratorJava) | A Java nonsense-essay generator with a sneaky last-item exclusion. |
+
+The precise source-file exhibits and star snapshots live in [the catalog](data/exhibits.json).
+
 ## Three artifacts in the special collection
 
 ### 001 · The game-closing mod

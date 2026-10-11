@@ -362,5 +362,317 @@
       "excerpt": "with open(\"identities_finalized.txt\", \"w\") as muxed:"
     },
     "last_updated_at_discovery": "2024-03-10"
+  },
+  {
+    "id": "UM-015",
+    "repo": "NoamFalber/Noam-s-best-work-of-art-yet",
+    "name": "Noam's best work of art yet",
+    "url": "https://github.com/NoamFalber/Noam-s-best-work-of-art-yet",
+    "category": "Creature Features",
+    "tagline": "A Unity Mobile 2D project with six imported Shrek images and no gameplay scripts.",
+    "field_note": "The only scene holds six Shrek sprite objects and a camera. All six sprites are individually positioned; one original commit preserves this motionless masterpiece.",
+    "language": "Unity",
+    "tags": [
+      "Shrek",
+      "Unity",
+      "six sprites"
+    ],
+    "icon": "🧅",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2023-04-11",
+    "last_updated_at_discovery": "2023-04-11",
+    "evidence": {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "url": "https://github.com/NoamFalber/Noam-s-best-work-of-art-yet/blob/main/Assets/Scenes/SampleScene.unity",
+      "excerpt": "m_Name: shrek6"
+    }
+  },
+  {
+    "id": "UM-016",
+    "repo": "brockwhittaker/Horrible-Form",
+    "name": "Horrible-Form",
+    "url": "https://github.com/brockwhittaker/Horrible-Form",
+    "category": "Cursed Code",
+    "tagline": "A web form that deletes input fields when you agree to type in them.",
+    "field_note": "Its JavaScript asks permission to enter text, then removes the input when the answer is yes. Every twenty-one mouse movements trigger a complaint. Deliberately terrible UX.",
+    "language": "JavaScript",
+    "tags": [
+      "forms",
+      "hostile UX",
+      "satire"
+    ],
+    "icon": "⌨",
+    "stars_at_discovery": 2,
+    "forks_at_discovery": 3,
+    "discovered_on": "2026-10-10",
+    "created_on": "2016-04-22",
+    "last_updated_at_discovery": "2016-04-22",
+    "evidence": {
+      "path": "public/js/main.js",
+      "url": "https://github.com/brockwhittaker/Horrible-Form/blob/master/public/js/main.js",
+      "excerpt": "if (response) {\n        this.parentNode.removeChild(this);\n      }"
+    }
+  },
+  {
+    "id": "UM-017",
+    "repo": "hwayne/bad-ideas",
+    "name": "bad-ideas",
+    "url": "https://github.com/hwayne/bad-ideas",
+    "category": "Cursed Code",
+    "tagline": "Basic arithmetic through deeply unhelpful shell commands.",
+    "field_note": "Multiplication manufactures equals signs. Subtraction relies on epoch digits and says it works only before a specific morning in September 2020. Deliberate computational mischief.",
+    "language": "Bash",
+    "tags": [
+      "arithmetic",
+      "time-bomb",
+      "shell"
+    ],
+    "icon": "−",
+    "stars_at_discovery": 2,
+    "forks_at_discovery": 2,
+    "discovered_on": "2026-10-10",
+    "created_on": "2013-06-19",
+    "last_updated_at_discovery": "2025-05-29",
+    "evidence": {
+      "path": "subtract",
+      "url": "https://github.com/hwayne/bad-ideas/blob/master/subtract",
+      "excerpt": "#    you run this before Sunday, September 13, 2020 at 5:26:40 AM (Pacific Time)"
+    }
+  },
+  {
+    "id": "UM-018",
+    "repo": "Nat-Faeeria/OverengineeredHelloWorld",
+    "name": "OverengineeredHelloWorld",
+    "url": "https://github.com/Nat-Faeeria/OverengineeredHelloWorld",
+    "category": "Elaborate Side Quests",
+    "tagline": "A Jenkins-and-Maven Hello World project whose World method returns Fox.",
+    "field_note": "It has a multistage Jenkins pipeline, Docker/Maven builds, and tests expecting World. The implementation faithfully supplies Fox. An enterprise-grade hello to the wrong animal.",
+    "language": "Java",
+    "tags": [
+      "Jenkins",
+      "unit tests",
+      "Hello Fox"
+    ],
+    "icon": "🦊",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2018-02-27",
+    "last_updated_at_discovery": "2019-05-21",
+    "evidence": {
+      "path": "src/main/java/Demo.java",
+      "url": "https://github.com/Nat-Faeeria/OverengineeredHelloWorld/blob/master/src/main/java/Demo.java",
+      "excerpt": "public String giveWorld() {\n        return \"Fox\";\n    }"
+    }
+  },
+  {
+    "id": "UM-019",
+    "repo": "nfd9001/Really-Horrible-Solutions",
+    "name": "Really-Horrible-Solutions",
+    "url": "https://github.com/nfd9001/Really-Horrible-Solutions",
+    "category": "Cursed Code",
+    "tagline": "Sorting an integer array by letting each element sleep for its value.",
+    "field_note": "Each element gets a thread that sleeps for its numerical value. The sample includes 54 and updates a shared volatile index without synchronization. The same repo also contains bozo and shuffle sorts.",
+    "language": "C",
+    "tags": [
+      "sleep sort",
+      "data race",
+      "horrible algorithms"
+    ],
+    "icon": "⏳",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 3,
+    "discovered_on": "2026-10-10",
+    "created_on": "2020-10-02",
+    "last_updated_at_discovery": "2020-10-07",
+    "evidence": {
+      "path": "sort/sort-nfd.c",
+      "url": "https://github.com/nfd9001/Really-Horrible-Solutions/blob/main/sort/sort-nfd.c",
+      "excerpt": "void *w(void *a){sleep(us[(intptr_t)a]);s[i]=us[(intptr_t)a];i++;}"
+    }
+  },
+  {
+    "id": "UM-020",
+    "repo": "secretGeek/bad_css_ideas",
+    "name": "bad_css_ideas",
+    "url": "https://github.com/secretGeek/bad_css_ideas",
+    "category": "Cursed Code",
+    "tagline": "A curated collection of delightfully hostile CSS selectors.",
+    "field_note": "The stylesheet targets classes named dots and hashes, emoji-valued attributes, and a custom element called coffee☕. Browser CSS has never felt so personally challenged.",
+    "language": "HTML/CSS",
+    "tags": [
+      "CSS",
+      "emoji selectors",
+      "browser"
+    ],
+    "icon": "☕",
+    "stars_at_discovery": 1,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2019-09-25",
+    "last_updated_at_discovery": "2024-07-03",
+    "evidence": {
+      "path": "index.html",
+      "url": "https://github.com/secretGeek/bad_css_ideas/blob/master/index.html",
+      "excerpt": "p[💡=🙄]{\n background-color:lightgray;\n}"
+    }
+  },
+  {
+    "id": "UM-021",
+    "repo": "c99koder/WhatTheFuckShouldBrianEatForLunchDotCom",
+    "name": "WhatTheFuckShouldBrianEatForLunchDotCom",
+    "url": "https://github.com/c99koder/WhatTheFuckShouldBrianEatForLunchDotCom",
+    "category": "Elaborate Side Quests",
+    "tagline": "A profane random lunch oracle that offers Dragon Sandwich and SQL injection as cuisine.",
+    "field_note": "The PHP array includes fake SQL injection as one of Brian's lunch options. The repository has a separate meow.php menu suggesting purritos and hairball spaghetti for a cat.",
+    "language": "PHP",
+    "tags": [
+      "lunch",
+      "menu generator",
+      "2011 internet"
+    ],
+    "icon": "🍔",
+    "stars_at_discovery": 3,
+    "forks_at_discovery": 1,
+    "discovered_on": "2026-10-10",
+    "created_on": "2011-11-28",
+    "last_updated_at_discovery": "2017-08-04",
+    "evidence": {
+      "path": "index.php",
+      "url": "https://github.com/c99koder/WhatTheFuckShouldBrianEatForLunchDotCom/blob/master/index.php",
+      "excerpt": "\"Some Fucking '); DROP TABLE FOOD;\""
+    }
+  },
+  {
+    "id": "UM-022",
+    "repo": "dschmedding/bullshit",
+    "name": "bullshit",
+    "url": "https://github.com/dschmedding/bullshit",
+    "category": "Cursed Code",
+    "tagline": "A tax-bracket script that concludes without displaying a tax.",
+    "field_note": "Its top bracket drops to a 14% rate after a 40% tier, and execution ends after assigning the rate. The final answer vanishes into a local variable.",
+    "language": "Python",
+    "tags": [
+      "taxes",
+      "unfinished",
+      "one file"
+    ],
+    "icon": "％",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2020-03-04",
+    "last_updated_at_discovery": "2020-03-04",
+    "evidence": {
+      "path": "Iterations2.py",
+      "url": "https://github.com/dschmedding/bullshit/blob/master/Iterations2.py",
+      "excerpt": "else:\n                tax = 0.14\n            break"
+    }
+  },
+  {
+    "id": "UM-023",
+    "repo": "Olivetd/Ridiculous-Website",
+    "name": "Ridiculous-Website",
+    "url": "https://github.com/Olivetd/Ridiculous-Website",
+    "category": "Digital Relics",
+    "tagline": "An earnest HTML protest against restrictions on socks worn with man pants.",
+    "field_note": "A 2017 beginner website denounces sock restrictions, includes broken tags, and puts a Rick Astley video behind a Merchandise link. Its grievance is lovingly preserved.",
+    "language": "HTML",
+    "tags": [
+      "socks",
+      "HTML",
+      "rickroll"
+    ],
+    "icon": "🧦",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 5,
+    "discovered_on": "2026-10-10",
+    "created_on": "2017-09-08",
+    "last_updated_at_discovery": "2017-09-08",
+    "evidence": {
+      "path": "ridiculousrules.html",
+      "url": "https://github.com/Olivetd/Ridiculous-Website/blob/master/ridiculousrules.html",
+      "excerpt": "<a href= https://www.youtube.com/watch?v=dQw4w9WgXcQ\"> Merchandise</a>"
+    }
+  },
+  {
+    "id": "UM-024",
+    "repo": "bitcoin-roomba/OverengineeredFizzBuzz",
+    "name": "OverengineeredFizzBuzz",
+    "url": "https://github.com/bitcoin-roomba/OverengineeredFizzBuzz",
+    "category": "Elaborate Side Quests",
+    "tagline": "FizzBuzz gets a Java domain model, text interface, and graphical user interface.",
+    "field_note": "The application represents output words as objects and starts counting at zero; zero is divisible by every nonzero buzzword divisor, so the first result can already be FizzBuzz.",
+    "language": "Java",
+    "tags": [
+      "FizzBuzz",
+      "GUI",
+      "overengineering"
+    ],
+    "icon": "◉",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 0,
+    "discovered_on": "2026-10-10",
+    "created_on": "2018-07-07",
+    "last_updated_at_discovery": "2018-07-10",
+    "evidence": {
+      "path": "src/FizzBuzzCore/FizzBuzz.java",
+      "url": "https://github.com/bitcoin-roomba/OverengineeredFizzBuzz/blob/master/src/FizzBuzzCore/FizzBuzz.java",
+      "excerpt": "this.start = 0;"
+    }
+  },
+  {
+    "id": "UM-025",
+    "repo": "dodzon/Fart",
+    "name": "Fart",
+    "url": "https://github.com/dodzon/Fart",
+    "category": "Pure Nothing",
+    "tagline": "An HTML page titled Fart, with an empty body.",
+    "field_note": "A web project whose title promises flatulence and whose body contains only whitespace. The concept has been delivered with absolute restraint.",
+    "language": "HTML",
+    "tags": [
+      "blank page",
+      "fart",
+      "one file"
+    ],
+    "icon": "💨",
+    "stars_at_discovery": 0,
+    "forks_at_discovery": 5,
+    "discovered_on": "2026-10-10",
+    "created_on": "2018-10-29",
+    "last_updated_at_discovery": "2018-10-29",
+    "evidence": {
+      "path": "index.html",
+      "url": "https://github.com/dodzon/Fart/blob/master/index.html",
+      "excerpt": "<title>Fart</title>"
+    }
+  },
+  {
+    "id": "UM-026",
+    "repo": "blueflychief/BullshitGeneratorJava",
+    "name": "BullshitGeneratorJava",
+    "url": "https://github.com/blueflychief/BullshitGeneratorJava",
+    "category": "Cursed Code",
+    "tagline": "A Java nonsense-essay generator with a sneaky last-item exclusion.",
+    "field_note": "An elaborate text generator shuffles boilerplate and quotations, but its modulo expressions exclude the final element of every list with more than one entry.",
+    "language": "Java",
+    "tags": [
+      "text generation",
+      "off by one",
+      "nonsense"
+    ],
+    "icon": "✎",
+    "stars_at_discovery": 2,
+    "forks_at_discovery": 2,
+    "discovered_on": "2026-10-10",
+    "created_on": "2019-11-04",
+    "last_updated_at_discovery": "2022-01-30",
+    "evidence": {
+      "path": "src/com/infinite/bullshit/Bullshit.java",
+      "url": "https://github.com/blueflychief/BullshitGeneratorJava/blob/master/src/com/infinite/bullshit/Bullshit.java",
+      "excerpt": "return list.get(r % (list.size() - 1));"
+    }
   }
 ]
